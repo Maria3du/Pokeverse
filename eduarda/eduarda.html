@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokecave</title>
+    <link rel="stylesheet" href="eduarda.css">
+    <link rel="icon" href="pokebola.png" type="image/png">
+</head>
+
+<body>
+    <h1>Pokecave</h1>
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/login.html">login</a></li>
+            <li><a href="#">sobre</a></li>
+            <li><a href="#">serviços</a></li>
+            <li><a href="#">contatos</a></li>
+        </ul>
+    </nav>
+    <h1>Recomendados</h1>
+
+    <div class="carrossel">
+    <div class="slides">
+      <div class="slide"><img id="blueImg" src="OIP.jpg" alt="blueversion"></div>
+      <div class="slide"><img id="esmeraldImg" src="pokemon esmerald.jpg" alt="esmeraldversion"></div>
+      <div class="slide"><img id="redImg" src="Pokemon red.jpg" alt="redversion"></div>
+    </div>
+    <button class="btn prev" onclick="mudarSlide(-1)">&#10094;</button>
+    <button class="btn next" onclick="mudarSlide(1)">&#10095;</button>
+  </div>
+  <script src="eduarda.js"></script>
+</body>
+
+</html>
