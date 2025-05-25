@@ -4,9 +4,9 @@ h1 {
 }
 
 body {
+    background-image: url(background.jpg);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(0, 54%, 97%);
 }
 
 nav {
