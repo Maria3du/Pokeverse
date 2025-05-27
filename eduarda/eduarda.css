@@ -1,4 +1,9 @@
-h1 {
+#titulo {
+    color: black;
+    text-align: center;
+}
+
+#slogan {
     color: black;
     text-align: center;
 }
