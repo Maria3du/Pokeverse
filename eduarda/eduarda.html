@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokecave</title>
-    <link rel="stylesheet" href="eduarda.css">
-    <link rel="icon" href="icon.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokecave</title>  <link rel="stylesheet" href="eduarda.css">
+  <link rel="icon" href="icon.png" type="image/png">
 </head>
 
 <body>
-    <h1 id="titulo">Pokecave</h1>
-    <p><h2 id="slogan">Da Pokédex para você!</h2></p>
-    <nav>
-        <ul>
-            <li><a href="http://127.0.0.1:5500/login.html">login</a></li>
-            <li><a href="http://localhost:7700/eduarda/forum.html">fórum</a></li>
-            <li><a href="http://localhost:7700/noticias.html">notícias</a></li>
-            <li><a href="http://localhost:7700/sobre.html">sobre</a></li>
-        </ul>
-    </nav>
+  <!--É necessário a mudança de design e de um novo título-->
+  <h1 id="titulo">Pokecave</h1>
+  <nav>
+    <ul>
+      <li><a href="http://127.0.0.1:5500/login.html">login</a></li>
+      <li><a href="http://127.0.0.1:5500/forum.html">fórum</a></li>
+      <li><a href="http://127.0.0.1:5500/noticias.html">notícias</a></li>
+      <li><a href="http://127.0.0.1:5500/sobre.html">sobre</a></li>
+    </ul>
+  </nav>
 
-    <div class="carrossel">
+<!--A div precisa ser consertada-->
+
+  <div class="carrossel" id="cr">
     <div class="slides">
-      <div class="slide"><img id="blueImg" src="OIP.jpg" alt="blueversion"></div>
-      <div class="slide"><img id="esmeraldImg" src="pokemon esmerald.jpg" alt="esmeraldversion"></div>
-      <div class="slide"><img id="redImg" src="Pokemon red.jpg" alt="redversion"></div>
+      <div class="slide"><a href="http://127.0.0.1:5500/blue.html"><img id="blueImg" src="OIP.jpg" alt="blueversio0n"></a>
+      </div>
+      <div class="slide"><a href="http://127.0.0.1:5500/esmerald.html"><img id="esmeraldImg" src="pokemon esmerald.jpg" alt="esmeraldversion"></a></div>
+      <div class="slide"><a href="http://127.0.0.1:5500/red.html"><img id="redImg" src="Pokemon red.jpg" alt="redversion"></a></div>
     </div>
     <button class="btn prev" onclick="mudarSlide(-1)">&#10094;</button>
     <button class="btn next" onclick="mudarSlide(1)">&#10095;</button>
+  </div>
+    <!--A div precisa ser linkada e estilizada-->
+  <div id="noticias">
+    <img id="dragonite" src="dragonite.jpg" alt="not"> <h2>
+      DRAGONITE!! Conheça a primeira linha de pokemons do tipo Dragão
+    </h2>
   </div>
   <script src="eduarda.js"></script>
 </body>
