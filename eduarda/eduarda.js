@@ -1,3 +1,6 @@
+window.alert('O site ainda está em construção,você verá a versão não finalizada! ');
+
+
 let slideIndex = 0;
 
 function mudarSlide(direcao) {
