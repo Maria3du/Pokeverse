@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokeverse</title>
+  <link rel="stylesheet" href="Pokeverse.css">
+  <link rel="icon" href="Logo.png" type="image/png">
+</head>
+
+<body>
+  <!--É necessário a mudança de design e de um novo título-->
+  <header>
+    <nav>
+      <div id="right">
+        <button id="cmenu">
+          <img src="Menu.png" alt="Icone de menu" id="menu">
+        </button>
+      </div>
+      <div id="left">
+        <button id="cpesquisa">
+          <img src="Lupa.png" alt="Icone de pesquisa" id="lupa">
+        </button>
+        <input type="text" id="barrap" placeholder="Pesquisar">
+        <ul>
+          <li><a href="login.html" rel="next" id="Entrar" target="_self">Entrar</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="carrossel" id="cr">
+    <div class="slides">
+      <div class="slide"><a href="blue.html" rel="next" target="_self"><img id="blueImg" src="OIP.jpg"
+            alt="blueversion"></a>
+      </div>
+      <div class="slide"><a href="esmerald.html" rel="next" target="_self"><img id="esmeraldImg"
+            src="pokemon esmerald.jpg" alt="esmeraldversion"></a></div>
+      <div class="slide"><a href="red.html" rel="next" target="_self"><img id="redImg" src="Pokemon red.jpg"
+            alt="redversion"></a></div>
+    </div>
+    <button class="btn prev" onclick="mudarSlide(-1)">&#10094;</button>
+    <button class="btn next" onclick="mudarSlide(1)">&#10095;</button>
+  </div>
+
+  <footer>
+    <nav><a href="https://github.com/Maria3du" rel="external" target="_blank">Desenvolvedor</a></nav>
+  </footer>
+  <script src="Pokeverse.js"></script>
+</body>
+
+</html>
